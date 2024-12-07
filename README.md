@@ -103,3 +103,7 @@ npm run package
 - **Error Handling**: The API has a centralized error-handling mechanism for logging errors and sending user-friendly error messages.
 - **Logging**: Uses Winston for structured logging, which helps in debugging and monitoring API requests and errors.
 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE.txt] file for details.

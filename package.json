@@ -19,7 +19,7 @@
         "prettier --write"
       ]
     },
-    
+
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
@@ -30,7 +30,7 @@
     "education"
   ],
   "author": "Walid Abdela",
-  "license": "ISC",
+   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/weloeffect/course2.git"
