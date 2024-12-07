@@ -10,19 +10,16 @@
     "version": "npm version",
     "install": "npm install",
     "build": "tsc",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
-
-  "husky": {
-      "hooks": {
-        "pre-commit": "lint-staged"
-      }
+  
+    "lint-staged": {
+      "*.{js,jsx,ts,tsx}": [
+        "eslint --fix",
+        "prettier --write"
+      ]
     },
     
- "lint-staged": {
-      "*.ts": ["eslint --fix"]
-    }
-  ,
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
