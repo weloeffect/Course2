@@ -14,10 +14,11 @@ const validateData = (schema: ObjectSchema): RequestHandler => {
       return;  
     }
 
-    next(); 
+    next();
   };
 };
 
 export default validateData;
+
 
 
