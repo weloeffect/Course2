@@ -31,6 +31,6 @@ if(process.env.NODE_ENV !== 'test'){
   });
 }
 
-console.log("commit tvgest")
+console.og("commit tvgest")
 
 export default app;
