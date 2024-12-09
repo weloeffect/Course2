@@ -11,7 +11,8 @@
     "install": "npm install",
     "build": "tsc",
     "prepare": "husky",
-    "docs": "typedoc --out docs src"
+    "docs": "typedoc --out docs src",
+    "prebuild": "mkdir -p dist"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
