@@ -4,13 +4,13 @@ import courseRoutes from './routes/courseRoutes';
 import errorHandler from './middleware/errorHandler';
 import requestLogger from './middleware/loggerMiddleware';
 import rateLimiter from './middleware/rateLimiter';
-import swaggerSetup from './swagger';
+
 const app = express();
 const PORT = 3000;
 
 app.use(express.json());
 
-swaggerSetup(app);
+
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Course Management System');

@@ -8,6 +8,13 @@ const COURSE_FILE = 'courses.json';
 
 const cache: { [key: string]: any } = {};
 
+/**
+ * Gets available courses.
+ * @param req Express request object
+ * @param res Express response object
+ * @returns all available courses are returned
+ */
+
 
 export const getAllCourses: RequestHandler = (req, res, next) => {
   try {
@@ -41,6 +48,12 @@ export const getAllCourses: RequestHandler = (req, res, next) => {
   }
 };
 
+/**
+ * Gets a specific course only.
+ * @param req Express request object
+ * @param res Express response object
+ * @returns Only one course is returned by Id
+ */
 
 export const getCourseById = (req: Request, res: Response, next: NextFunction) => {
     try {
@@ -59,7 +72,12 @@ export const getCourseById = (req: Request, res: Response, next: NextFunction) =
       }
 };
 
-
+/**
+ * Creates a new course.
+ * @param req Express request object
+ * @param res Express response object
+ * @returns a response with the new course is returned
+ */
 export const createCourse = (req: Request, res: Response, next: NextFunction) => {
     try {
         const courses = readData(COURSE_FILE);
@@ -75,7 +93,12 @@ export const createCourse = (req: Request, res: Response, next: NextFunction) =>
       }
   };
 
-
+/**
+ * Modifies an existing course.
+ * @param req Express request object
+ * @param res Express response object
+ * @returns a confirmation response that the course was modified is returned
+ */
   export const updateCourse = (req: Request, res: Response, next: NextFunction) => {
     try {
         const courses = readData(COURSE_FILE);
@@ -95,6 +118,13 @@ export const createCourse = (req: Request, res: Response, next: NextFunction) =>
         next(error);
       }
   };
+
+/**
+ * Deletes a specific course.
+ * @param req Express request object
+ * @param res Express response object
+ * @returns a confirmation response that the course has been deleted is returned.
+ */
 
 export const deleteCourse = (req: Request, res: Response, next: NextFunction) => {
     try {

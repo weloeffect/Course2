@@ -1,6 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 
+/**
+file handling functionalities for reading and writing data.
+ */
+
 const readData = (fileName: string) => {
   const filePath = path.join(__dirname, '../data', fileName);
   const data = fs.readFileSync(filePath, 'utf-8');

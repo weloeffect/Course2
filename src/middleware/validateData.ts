@@ -1,6 +1,13 @@
 import { Request, Response, NextFunction, RequestHandler } from 'express';
 import Joi, { ObjectSchema } from 'joi';
 
+
+
+/**
+ * validates course data
+ */
+
+
 const validateData = (schema: ObjectSchema): RequestHandler => {
   return (req: Request, res: Response, next: NextFunction): void => {
     const { error } = schema.validate(req.body, { abortEarly: false });

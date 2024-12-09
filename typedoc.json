@@ -1,0 +1,9 @@
+{
+    "entryPoints": ["src"], // Include the whole `src` directory
+    "out": "docs",          // Output directory for generated documentation
+    "includeVersion": true, // Optionally include the project version
+    "exclude": ["src/**/*.test.ts"], // Exclude test files or any files you don't want documented
+    "excludeExternals": true, // Exclude external libraries
+    "excludePrivate": true, // Exclude private members
+    "excludeProtected": true // Exclude protected members
+  }

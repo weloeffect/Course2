@@ -1,5 +1,12 @@
 import winston from 'winston';
 
+
+/**
+ * logging functionality
+ */
+
+
+
 const logLevels = {
   levels: {
     error: 0,

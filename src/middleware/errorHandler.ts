@@ -2,6 +2,13 @@ import { Request, Response, NextFunction } from 'express'
 import logger from '../utils/logger';
 import { MyError } from '../utils/MyError';
 
+/**
+ * Handles errors.
+ * @param req Express request object
+ * @param res Express response object
+ * @returns error is returned with the specific message and status code
+ */
+
 const errorHandler = (err: Error | MyError, req: Request, res: Response, next: NextFunction) => {
   const statusCode = err instanceof MyError ? err.statusCode : 500;
   const message = err.message || 'An unexpected error occurred. Please try again';
