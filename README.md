@@ -130,7 +130,7 @@ will generate the documentation in the docs folder.
 tutorial: 
 
 5. 
-release: 
+release: l
 
 
 
