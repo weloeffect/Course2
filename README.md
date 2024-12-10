@@ -127,11 +127,10 @@ npx typedoc --entryPointStrategy expand --out docs src
 will generate the documentation in the docs folder.
 
 4. 
-tutorial: 
+tutorial: https://github.com/weloeffect/Course2/blob/main/docs/tutorials/tutorial.md
 
 5. 
-release: l
-
+release: https://github.com/weloeffect/Course2/releases/tag/v0.2.0-alpha
 
 
 ## License
