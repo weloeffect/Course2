@@ -5,3 +5,23 @@
 {"level":"info","message":"Incoming request: POST /api/courses","timestamp":"2024-11-10T19:42:14.415Z"}
 {"level":"info","message":"Incoming request: PUT /api/courses/1","timestamp":"2024-11-10T19:42:14.433Z"}
 {"level":"info","message":"Incoming request: DELETE /api/courses/1","timestamp":"2024-11-10T19:42:14.437Z"}
+[2024-12-10 00:00:33] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-10 00:00:33] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-10 00:00:33] [31merror[39m: Failed to create course
+[2024-12-10 00:00:33] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-10 00:00:33] [31merror[39m: Failed to update course with ID 5
+[2024-12-10 00:00:33] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-10 00:00:33] [31merror[39m: Failed to delete course with ID 4
+[2024-12-10 00:00:33] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-10 00:00:33] [32minfo[39m: Created new course
+[2024-12-10 00:00:33] [32minfo[39m: Updated course with ID 5
+[2024-12-10 00:00:33] [31merror[39m: Failed to delete course with ID 4
+[2024-12-10 00:00:33] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-10 00:00:37] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-10 00:00:37] [32minfo[39m: Created new course
+[2024-12-10 00:00:37] [31merror[39m: Failed to update course with ID 5
+[2024-12-10 00:00:37] [31merror[39m: Failed to delete course with ID 5
+[2024-12-10 00:00:37] [32minfo[39m: Created new course
+[2024-12-10 00:00:37] [32minfo[39m: Updated course with ID 5
+[2024-12-10 00:00:37] [31merror[39m: Failed to delete course with ID 4
+[2024-12-10 00:00:37] [31merror[39m: Error: Course not found, Status Code: 404
