@@ -1,7 +1,7 @@
 
 # Course Management System
 
-A **Course Management System** that enables CRUD (Create, Read, Update, Delete) operations on course data. The system supports pagination, caching, and includes Swagger documentation for reference.
+A **Course Management System** that enables CRUD (Create, Read, Update, Delete) operations on course data. The system supports pagination, caching, and includes TypeDoc documentation for reference.
 
 
 ## Lecture 5 TODOs
