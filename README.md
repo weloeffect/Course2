@@ -70,8 +70,8 @@ npm install winston
 Check the logged files for logging implementation.
 
 4. 
-Test files: https://github.com/weloeffect/Course2/tree/main/src/utils/__tests__ (it is in this directory that all test files are present)
-config files: https://github.com/weloeffect/Course2/blob/main/src/jest.config.js
+- Test files: https://github.com/weloeffect/Course2/tree/main/src/utils/__tests__ (it is in this directory that all test files are present)
+- config files: https://github.com/weloeffect/Course2/blob/main/src/jest.config.js
               https://github.com/weloeffect/Course2/blob/main/src/jest.setup.js
 Install Jest:
  ```bash
@@ -93,7 +93,7 @@ License file: https://github.com/weloeffect/Course2/blob/main/LICENSE.txt
 README: https://github.com/weloeffect/Course2/blob/main/README.md
 
 3. 
-documented files: https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts
+- documented files: https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts
                   https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.js
                   https://github.com/weloeffect/Course2/blob/main/src/middleware/errorHandler.js
                   https://github.com/weloeffect/Course2/blob/main/src/middleware/errorHandler.ts
@@ -112,7 +112,7 @@ documented files: https://github.com/weloeffect/Course2/blob/main/src/controller
                   https://github.com/weloeffect/Course2/blob/main/src/utils/logger.js
                   https://github.com/weloeffect/Course2/blob/main/src/utils/logger.ts
 
-config files: https://github.com/weloeffect/Course2/blob/main/tsconfig.json
+- config files: https://github.com/weloeffect/Course2/blob/main/tsconfig.json
               https://github.com/weloeffect/Course2/blob/main/typedoc.json
 
 Install typedoc:
