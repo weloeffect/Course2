@@ -3,6 +3,7 @@
 
 A **Course Management System** that enables CRUD (Create, Read, Update, Delete) operations on course data. The system supports pagination, caching, and includes Swagger documentation for reference.
 
+Project Link: https://github.com/weloeffect/Course2
 
 ## Lecture 5 TODOs
 1. 
