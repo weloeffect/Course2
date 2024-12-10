@@ -77,7 +77,7 @@ Check the logged files for logging implementation.
 - Test files: https://github.com/weloeffect/Course2/tree/main/src/utils/__tests__ (it is in this directory that all test files are present)
 - config files: https://github.com/weloeffect/Course2/blob/main/src/jest.config.js
               https://github.com/weloeffect/Course2/blob/main/src/jest.setup.js
-Install Jest:
+- Install Jest:
  ```bash
 npm install jest ts-jest @types/jest --save-dev
    ```
