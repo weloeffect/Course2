@@ -1,25 +1,25 @@
 
 # Course Management System
 
-A **Course Management System** that enables CRUD (Create, Read, Update, Delete) operations on course data. The system supports pagination, caching, and includes Swagger documentation for reference.
+A **Course Management System** that enables CRUD (Create, Read, Update, Delete) operations on course data. The system supports pagination, caching, and includes TypeDoc documentation for reference.
 
 Project Link: https://github.com/weloeffect/Course2
 
 ## Lecture 5 TODOs
 1. 
-config file: https://github.com/weloeffect/Course2/blob/main/eslint.config.mjs
-Install Eslint:
+- config file: https://github.com/weloeffect/Course2/blob/main/eslint.config.mjs
+- Install Eslint:
  ```bash
 npm install eslint --save-dev
 npx eslint --init 
    ```
 During initialization:
-Select "To check syntax and find problems"
-Select "JavaScript modules (import/export)"
-Select "None" for framework
-Select "yes" for Typescript
-Select "Node" for browser selection
-Confirm installation of the required dependencies.
+- Select "To check syntax and find problems"
+- Select "JavaScript modules (import/export)"
+- Select "None" for framework
+- Select "yes" for Typescript
+- Select "Node" for browser selection
+- Confirm installation of the required dependencies.
 
 Run:
  ```bash
@@ -33,7 +33,7 @@ npx eslint . --fix
 to fix errors automatically.
 
 2. 
-config file: https://github.com/weloeffect/Course2/blob/main/package.json
+- config file: https://github.com/weloeffect/Course2/blob/main/package.json
 
 Install Husky and Lint-Staged:
  ```bash
@@ -58,8 +58,12 @@ git commit -m "Test commit"
 
 The pre-commit hook will run eslint --fix on all staged .ts files .
 
+**NOTE**: to by pass commits:  
+```bash
+git commit --no-verify -m "Test commit"
+   ```
 3. 
-logged files: https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts
+- logged files: https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts
               https://github.com/weloeffect/Course2/blob/main/src/middleware/errorHandler.ts
               https://github.com/weloeffect/Course2/blob/main/src/middleware/loggerMiddleware.ts
               https://github.com/weloeffect/Course2/blob/main/src/utils/logger.ts
@@ -71,10 +75,10 @@ npm install winston
 Check the logged files for logging implementation.
 
 4. 
-Test files: https://github.com/weloeffect/Course2/tree/main/src/utils/__tests__ (it is in this directory that all test files are present)
-config files: https://github.com/weloeffect/Course2/blob/main/src/jest.config.js
+- Test files: https://github.com/weloeffect/Course2/tree/main/src/utils/__tests__ (it is in this directory that all test files are present)
+- config files: https://github.com/weloeffect/Course2/blob/main/src/jest.config.js
               https://github.com/weloeffect/Course2/blob/main/src/jest.setup.js
-Install Jest:
+- Install Jest:
  ```bash
 npm install jest ts-jest @types/jest --save-dev
    ```
@@ -88,13 +92,13 @@ Check the test files for Jest Implementation
 
 ## Lecture 6 TODOs
 1. 
-License file: https://github.com/weloeffect/Course2/blob/main/LICENSE.txt
+- License file: https://github.com/weloeffect/Course2/blob/main/LICENSE.txt
 
 2. 
-README: https://github.com/weloeffect/Course2/blob/main/README.md
+- README: https://github.com/weloeffect/Course2/blob/main/README.md
 
 3. 
-documented files: https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts
+- documented files: https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts
                   https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.js
                   https://github.com/weloeffect/Course2/blob/main/src/middleware/errorHandler.js
                   https://github.com/weloeffect/Course2/blob/main/src/middleware/errorHandler.ts
@@ -113,7 +117,7 @@ documented files: https://github.com/weloeffect/Course2/blob/main/src/controller
                   https://github.com/weloeffect/Course2/blob/main/src/utils/logger.js
                   https://github.com/weloeffect/Course2/blob/main/src/utils/logger.ts
 
-config files: https://github.com/weloeffect/Course2/blob/main/tsconfig.json
+- config files: https://github.com/weloeffect/Course2/blob/main/tsconfig.json
               https://github.com/weloeffect/Course2/blob/main/typedoc.json
 
 Install typedoc:
@@ -128,11 +132,10 @@ npx typedoc --entryPointStrategy expand --out docs src
 will generate the documentation in the docs folder.
 
 4. 
-tutorial: 
+- tutorial: https://github.com/weloeffect/Course2/blob/main/docs/tutorials/tutorial.md
 
 5. 
-release: l
-
+- release: https://github.com/weloeffect/Course2/releases/tag/v0.2.0-alpha
 
 
 ## License
