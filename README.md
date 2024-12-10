@@ -87,10 +87,10 @@ Check the test files for Jest Implementation
 
 ## Lecture 6 TODOs
 1. 
-License file: https://github.com/weloeffect/Course2/blob/main/LICENSE.txt
+- License file: https://github.com/weloeffect/Course2/blob/main/LICENSE.txt
 
 2. 
-README: https://github.com/weloeffect/Course2/blob/main/README.md
+- README: https://github.com/weloeffect/Course2/blob/main/README.md
 
 3. 
 - documented files: https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts
@@ -127,10 +127,10 @@ npx typedoc --entryPointStrategy expand --out docs src
 will generate the documentation in the docs folder.
 
 4. 
-tutorial: https://github.com/weloeffect/Course2/blob/main/docs/tutorials/tutorial.md
+- tutorial: https://github.com/weloeffect/Course2/blob/main/docs/tutorials/tutorial.md
 
 5. 
-release: https://github.com/weloeffect/Course2/releases/tag/v0.2.0-alpha
+- release: https://github.com/weloeffect/Course2/releases/tag/v0.2.0-alpha
 
 
 ## License
