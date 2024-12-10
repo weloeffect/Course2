@@ -13,12 +13,12 @@ npm install eslint --save-dev
 npx eslint --init 
    ```
 During initialization:
-Select "To check syntax and find problems"
-Select "JavaScript modules (import/export)"
-Select "None" for framework
-Select "yes" for Typescript
-Select "Node" for browser selection
-Confirm installation of the required dependencies.
+- Select "To check syntax and find problems"
+- Select "JavaScript modules (import/export)"
+- Select "None" for framework
+- Select "yes" for Typescript
+- Select "Node" for browser selection
+- Confirm installation of the required dependencies.
 
 Run:
  ```bash
