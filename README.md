@@ -7,7 +7,7 @@ A **Course Management System** that enables CRUD (Create, Read, Update, Delete) 
 ## Lecture 5 TODOs
 1. 
 - config file: https://github.com/weloeffect/Course2/blob/main/eslint.config.mjs
-Install Eslint:
+- Install Eslint:
  ```bash
 npm install eslint --save-dev
 npx eslint --init 
