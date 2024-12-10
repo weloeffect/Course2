@@ -58,7 +58,7 @@ git commit -m "Test commit"
 The pre-commit hook will run eslint --fix on all staged .ts files .
 
 3. 
-logged files: https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts
+- logged files: https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts
               https://github.com/weloeffect/Course2/blob/main/src/middleware/errorHandler.ts
               https://github.com/weloeffect/Course2/blob/main/src/middleware/loggerMiddleware.ts
               https://github.com/weloeffect/Course2/blob/main/src/utils/logger.ts
