@@ -3,6 +3,7 @@ import { readData, writeData } from '../utils/fileHandler';
 import { MyError } from '../utils/MyError';
 import logger from '../utils/logger';
 import { RequestHandler } from 'express';
+import redis from '../config/redis';
 
 const COURSE_FILE = 'courses.json';
 
@@ -16,35 +17,36 @@ const cache: { [key: string]: any } = {};
  */
 
 
-export const getAllCourses: RequestHandler = (req, res, next) => {
+export const getAllCourses: RequestHandler = async (req, res, next) => {
   try {
-      const page = parseInt(req.query.page as string) || 1;
-      const limit = parseInt(req.query.limit as string) || 10;
-      const cacheKey = `page-${page}-limit-${limit}`;
-  
-      if (cache[cacheKey]) {
-          logger.info(`Cache hit for ${cacheKey}`);
-          res.status(200).json(cache[cacheKey]);
-          return;
-      }
-  
-      const courses = readData(COURSE_FILE);
-      const startIndex = (page - 1) * limit;
-      const endIndex = startIndex + limit;
-      const paginatedCourses = courses.slice(startIndex, endIndex);
-  
-      const response = {
-          data: paginatedCourses,
-          page,
-          limit,
-          total: courses.length,
-      };
-  
-      cache[cacheKey] = response;
-      res.status(200).json(response);
+    const page = parseInt(req.query.page as string) || 1;
+    const limit = parseInt(req.query.limit as string) || 10;
+    const cacheKey = `page-${page}-limit-${limit}`;
+
+    const cachedData = await redis.get(cacheKey);
+    if (cachedData) {
+      logger.info(`Cache hit for ${cacheKey}`);
+      res.status(200).json(JSON.parse(cachedData));
+      return;
+    }
+
+    const courses = readData(COURSE_FILE);
+    const startIndex = (page - 1) * limit;
+    const endIndex = startIndex + limit;
+    const paginatedCourses = courses.slice(startIndex, endIndex);
+
+    const response = {
+      data: paginatedCourses,
+      page,
+      limit,
+      total: courses.length,
+    };
+
+    await redis.setex(cacheKey, 900, JSON.stringify(response));
+    res.status(200).json(response);
   } catch (error) {
-      logger.error('Failed to fetch paginated courses with caching', { error });
-      next(error);
+    logger.error('Failed to fetch paginated courses with caching', { error });
+    next(error);
   }
 };
 

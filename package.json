@@ -8,7 +8,6 @@
     "start": "nodemon --exec ts-node src/app.ts",
     "package": "npm pack",
     "version": "npm version",
-    "install": "npm install",
     "build": "tsc",
     "prepare": "husky",
     "docs": "typedoc --out docs src",
@@ -44,7 +43,8 @@
     "nodemon": "^3.1.7",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",
-    "winston": "^3.16.0"
+    "winston": "^3.16.0",
+    "ioredis": "^5.3.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",

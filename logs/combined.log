@@ -25,3 +25,4 @@
 [2024-12-10 00:00:37] [32minfo[39m: Updated course with ID 5
 [2024-12-10 00:00:37] [31merror[39m: Failed to delete course with ID 4
 [2024-12-10 00:00:37] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-28 11:01:53] [32minfo[39m: Incoming request: GET /favicon.ico
