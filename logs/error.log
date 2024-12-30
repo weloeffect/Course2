@@ -13,3 +13,18 @@
 [2024-12-10 00:00:37] [31merror[39m: Failed to delete course with ID 5
 [2024-12-10 00:00:37] [31merror[39m: Failed to delete course with ID 4
 [2024-12-10 00:00:37] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:12:09] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:12:09] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:12:09] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:12:09] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:12:09] [31merror[39m: Failed to create course
+[2024-12-30 14:12:09] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:12:09] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:12:09] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:12:09] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:12:09] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:12:13] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:12:13] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:12:13] [31merror[39m: Failed to delete course with ID 5
+[2024-12-30 14:12:13] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:12:13] [31merror[39m: Error: Course not found, Status Code: 404
