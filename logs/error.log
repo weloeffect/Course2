@@ -28,3 +28,303 @@
 [2024-12-30 14:12:13] [31merror[39m: Failed to delete course with ID 5
 [2024-12-30 14:12:13] [31merror[39m: Failed to delete course with ID 4
 [2024-12-30 14:12:13] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:26:37] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:26:37] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:26:37] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:26:37] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:26:37] [31merror[39m: Failed to create course
+[2024-12-30 14:26:37] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:26:37] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:26:37] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:26:37] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:26:37] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:26:37] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:26:37] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:26:40] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:26:40] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:26:40] [31merror[39m: Failed to delete course with ID 5
+[2024-12-30 14:26:40] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:26:40] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:29:35] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:29:35] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:29:35] [31merror[39m: Failed to create course
+[2024-12-30 14:29:35] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:29:35] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:29:35] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:29:35] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:29:35] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:29:35] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:29:35] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:29:37] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:29:37] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:29:37] [31merror[39m: Failed to delete course with ID 5
+[2024-12-30 14:29:38] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:29:38] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:33:39] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:33:39] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:33:39] [31merror[39m: Failed to create course
+[2024-12-30 14:33:39] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:33:39] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:33:39] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:33:39] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:33:39] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:33:39] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:33:39] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:33:41] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:33:41] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:33:41] [31merror[39m: Failed to delete course with ID 5
+[2024-12-30 14:33:42] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:33:42] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:35:06] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:35:06] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:35:06] [31merror[39m: Failed to create course
+[2024-12-30 14:35:06] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:35:06] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:35:06] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:35:06] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:35:06] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:35:06] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:35:06] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:35:08] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:35:08] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:35:08] [31merror[39m: Failed to delete course with ID 5
+[2024-12-30 14:35:09] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:35:09] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:35:48] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:35:48] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:35:48] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:35:48] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:35:48] [31merror[39m: Failed to create course
+[2024-12-30 14:35:48] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:35:48] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:35:48] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:35:48] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:35:48] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:35:50] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:35:50] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:35:50] [31merror[39m: Failed to delete course with ID 5
+[2024-12-30 14:35:51] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:35:51] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:41:48] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:41:48] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:41:48] [31merror[39m: Failed to create course
+[2024-12-30 14:41:48] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:41:48] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:41:48] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:41:48] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:41:48] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:41:49] [31merror[39m: Failed to update course with ID 2
+[2024-12-30 14:41:49] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:41:49] [31merror[39m: Failed to delete course with ID 2
+[2024-12-30 14:41:49] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:41:52] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:41:52] [31merror[39m: Failed to delete course with ID 2
+[2024-12-30 14:41:52] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:47:56] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:47:56] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:47:56] [31merror[39m: Failed to create course
+[2024-12-30 14:47:56] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:47:56] [31merror[39m: Failed to update course with ID 2
+[2024-12-30 14:47:56] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:47:56] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:47:56] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:47:56] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:47:56] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:47:56] [31merror[39m: Failed to delete course with ID 2
+[2024-12-30 14:47:56] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:47:58] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:47:58] [31merror[39m: Failed to delete course with ID 2
+[2024-12-30 14:47:58] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:53:57] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:53:57] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:53:57] [31merror[39m: Failed to create course
+[2024-12-30 14:53:57] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:53:57] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:53:57] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:53:57] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:53:57] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:53:57] [31merror[39m: Failed to update course with ID 2
+[2024-12-30 14:53:57] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:53:57] [31merror[39m: Failed to delete course with ID 2
+[2024-12-30 14:53:57] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:54:00] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:54:00] [31merror[39m: Failed to delete course with ID 2
+[2024-12-30 14:54:00] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:54:20] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:54:20] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:54:20] [31merror[39m: Failed to update course with ID 2
+[2024-12-30 14:54:20] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:54:20] [31merror[39m: Failed to create course
+[2024-12-30 14:54:20] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:54:20] [31merror[39m: Failed to delete course with ID 2
+[2024-12-30 14:54:20] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:54:20] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:54:20] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:54:20] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:54:20] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:54:23] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:54:23] [31merror[39m: Failed to delete course with ID 2
+[2024-12-30 14:54:23] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:54:52] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:54:52] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:54:53] [31merror[39m: Failed to create course
+[2024-12-30 14:54:53] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:54:53] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 14:54:53] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:54:53] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 14:54:53] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 14:54:53] [31merror[39m: Failed to update course with ID 2
+[2024-12-30 14:54:53] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:54:53] [31merror[39m: Failed to delete course with ID 2
+[2024-12-30 14:54:53] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 14:54:55] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 14:54:55] [31merror[39m: Failed to delete course with ID 2
+[2024-12-30 14:54:55] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-30 15:01:05] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 15:01:05] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:01:05] [31merror[39m: Failed to create course
+[2024-12-30 15:01:05] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:01:05] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 15:01:05] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:01:05] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 15:01:05] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:04:56] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 15:04:56] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:04:56] [31merror[39m: Failed to create course
+[2024-12-30 15:04:56] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:04:56] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 15:04:56] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:04:56] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 15:04:56] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:07:11] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 15:07:11] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:07:11] [31merror[39m: Failed to create course
+[2024-12-30 15:07:11] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:07:11] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 15:07:11] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:07:11] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 15:07:11] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:08:52] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 15:08:52] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:08:52] [31merror[39m: Failed to create course
+[2024-12-30 15:08:52] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:08:52] [31merror[39m: Failed to update course with ID 5
+[2024-12-30 15:08:52] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:08:52] [31merror[39m: Failed to delete course with ID 4
+[2024-12-30 15:08:52] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:10:26] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 15:10:26] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:13:02] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 15:13:02] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-30 15:14:19] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-30 15:14:19] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:40:02] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 09:40:02] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:40:02] [31merror[39m: Failed to create course
+[2024-12-31 09:40:02] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:40:02] [31merror[39m: Failed to update course with ID 5
+[2024-12-31 09:40:02] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:40:02] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 09:40:02] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:40:07] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 09:40:13] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 09:40:13] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-31 09:40:13] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 09:40:13] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-31 09:44:26] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 09:44:26] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:44:26] [31merror[39m: Failed to create course
+[2024-12-31 09:44:26] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:44:26] [31merror[39m: Failed to update course with ID 5
+[2024-12-31 09:44:26] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:44:26] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 09:44:26] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:44:28] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 09:45:21] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 09:45:21] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:45:21] [31merror[39m: Failed to create course
+[2024-12-31 09:45:21] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:45:21] [31merror[39m: Failed to update course with ID 5
+[2024-12-31 09:45:21] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:45:21] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 09:45:21] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:45:35] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 09:45:35] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:45:35] [31merror[39m: Failed to create course
+[2024-12-31 09:45:35] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:45:35] [31merror[39m: Failed to update course with ID 5
+[2024-12-31 09:45:35] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:45:35] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 09:45:35] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:55:10] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 09:55:10] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:55:10] [31merror[39m: Failed to create course
+[2024-12-31 09:55:10] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:55:10] [31merror[39m: Failed to update course with ID 5
+[2024-12-31 09:55:10] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:55:10] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 09:55:10] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 09:55:11] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 09:55:29] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 09:55:46] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 09:56:19] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 09:56:19] [31merror[39m: Failed to update course with ID 5
+[2024-12-31 09:56:19] [31merror[39m: Failed to delete course with ID 5
+[2024-12-31 09:57:03] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:03:16] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:03:42] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 10:03:42] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-31 10:04:36] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:04:36] [31merror[39m: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details., Status Code: 500
+[2024-12-31 10:06:07] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 10:06:07] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-31 10:07:01] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:07:01] [31merror[39m: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details., Status Code: 500
+[2024-12-31 10:13:35] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 10:13:35] [31merror[39m: Error: Course not found, Status Code: 404
+[2024-12-31 10:16:01] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:16:01] [31merror[39m: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details., Status Code: 500
+[2024-12-31 10:18:05] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:18:05] [31merror[39m: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details., Status Code: 500
+[2024-12-31 10:19:52] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:19:52] [31merror[39m: Error: Reached the max retries per request limit (which is 20). Refer to "maxRetriesPerRequest" option for details., Status Code: 500
+[2024-12-31 10:29:42] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:29:42] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:29:42] [31merror[39m: Failed to create course
+[2024-12-31 10:29:42] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:29:42] [31merror[39m: Failed to update course with ID 5
+[2024-12-31 10:29:42] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:29:42] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 10:29:42] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:29:43] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:31:14] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:31:14] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:31:14] [31merror[39m: Failed to create course
+[2024-12-31 10:31:14] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:31:14] [31merror[39m: Failed to update course with ID 5
+[2024-12-31 10:31:14] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:31:14] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 10:31:14] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:31:15] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:37:09] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:37:09] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:37:10] [31merror[39m: Failed to create course
+[2024-12-31 10:37:10] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:37:10] [31merror[39m: Failed to update course with ID 5
+[2024-12-31 10:37:10] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:37:10] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 10:37:10] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:37:11] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:37:55] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:37:55] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:37:55] [31merror[39m: Failed to create course
+[2024-12-31 10:37:55] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:37:55] [31merror[39m: Failed to update course with ID 5
+[2024-12-31 10:37:55] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:37:55] [31merror[39m: Failed to delete course with ID 4
+[2024-12-31 10:37:55] [31merror[39m: Error: ENOENT: no such file or directory, open 'C:\Users\walee\Documents\CPS2\CPS2 development and system engineering\Maxime assignments\Lab4\CourseMangementSystem\dist\data\courses.json', Status Code: 500
+[2024-12-31 10:37:58] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:40:38] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:44:11] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:45:45] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 10:51:47] [31merror[39m: Failed to fetch paginated courses with caching

@@ -323,7 +323,7 @@ describe('Course Controller', () => {
               ]
             }
           ] };
-      const req = { params: { id: '5' }, body: updatedCourse } as unknown as Request;
+      const req = { params: { id: '1' }, body: updatedCourse } as unknown as Request;
       const res = { json: jest.fn(), status: jest.fn().mockReturnThis() } as unknown as Response;
       const next = jest.fn();
 
@@ -336,7 +336,7 @@ describe('Course Controller', () => {
 
   describe('deleteCourse', () => {
     it('should delete a course', () => {
-      const req = { params: { id: '5' } } as unknown as Request;
+      const req = { params: { id: '1' } } as unknown as Request;
       const res = { json: jest.fn(), status: jest.fn().mockReturnThis() } as unknown as Response;
       const next = jest.fn();
 
