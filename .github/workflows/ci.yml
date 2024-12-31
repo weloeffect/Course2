@@ -33,6 +33,6 @@ jobs:
       run: npm run lint
 
     - name: Check for secrets
-      uses: trufflesecurity/trufflehog@v3
+      uses: trufflesecurity/trufflehog@v3.0.0
       with:
         scan: 'git'
