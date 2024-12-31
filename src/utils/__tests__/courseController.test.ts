@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from 'express';
+import { Request, Response } from 'express';
 import { readData, writeData } from '../fileHandler';
 import { createCourse, deleteCourse, getAllCourses, updateCourse } from '../../controllers/courseController';
 

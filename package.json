@@ -11,7 +11,8 @@
     "build": "tsc",
     "prepare": "husky install",
     "docs": "typedoc --out docs src",
-    "prebuild": "mkdir -p dist"
+    "prebuild": "mkdir -p dist",
+    "lint": "eslint \"**/*.{ts,tsx}\" --fix"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [

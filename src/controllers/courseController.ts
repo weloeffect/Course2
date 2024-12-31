@@ -7,7 +7,11 @@ import redis from '../config/redis';
 
 const COURSE_FILE = 'courses.json';
 
-const cache: { [key: string]: any } = {};
+interface Course {
+  id: number;
+  name: string;
+  description?: string; // Add other properties as required
+}
 
 /**
  * Gets available courses.
@@ -15,8 +19,6 @@ const cache: { [key: string]: any } = {};
  * @param res Express response object
  * @returns all available courses are returned
  */
-
-
 export const getAllCourses: RequestHandler = async (req, res, next) => {
   try {
     const page = parseInt(req.query.page as string) || 1;
@@ -30,7 +32,7 @@ export const getAllCourses: RequestHandler = async (req, res, next) => {
       return;
     }
 
-    const courses = readData(COURSE_FILE);
+    const courses: Course[] = readData(COURSE_FILE);
     const startIndex = (page - 1) * limit;
     const endIndex = startIndex + limit;
     const paginatedCourses = courses.slice(startIndex, endIndex);
@@ -56,22 +58,21 @@ export const getAllCourses: RequestHandler = async (req, res, next) => {
  * @param res Express response object
  * @returns Only one course is returned by Id
  */
-
 export const getCourseById = (req: Request, res: Response, next: NextFunction) => {
-    try {
-        const courses = readData(COURSE_FILE);
-        const course = courses.find((c: any) => c.id === parseInt(req.params.id));
-    
-        if (!course) {
-          throw new MyError('Course not found', 404);
-        }
-    
-        logger.info(`Fetched course with ID ${req.params.id}`, { courseId: req.params.id });
-        res.status(200).json(course);
-      } catch (error) {
-        logger.error(`Failed to fetch course with ID ${req.params.id}`, { error });
-        next(error);
-      }
+  try {
+    const courses: Course[] = readData(COURSE_FILE);
+    const course = courses.find((c) => c.id === parseInt(req.params.id));
+
+    if (!course) {
+      throw new MyError('Course not found', 404);
+    }
+
+    logger.info(`Fetched course with ID ${req.params.id}`, { courseId: req.params.id });
+    res.status(200).json(course);
+  } catch (error) {
+    logger.error(`Failed to fetch course with ID ${req.params.id}`, { error });
+    next(error);
+  }
 };
 
 /**
@@ -81,19 +82,19 @@ export const getCourseById = (req: Request, res: Response, next: NextFunction) =
  * @returns a response with the new course is returned
  */
 export const createCourse = (req: Request, res: Response, next: NextFunction) => {
-    try {
-        const courses = readData(COURSE_FILE);
-        const newCourse = { id: courses.length + 1, ...req.body };
-        courses.push(newCourse);
-        writeData(COURSE_FILE, courses);
-    
-        logger.info('Created new course', { courseId: newCourse.id });
-        res.status(201).json(newCourse);
-      } catch (error) {
-        logger.error('Failed to create course', { error });
-        next(error);
-      }
-  };
+  try {
+    const courses: Course[] = readData(COURSE_FILE);
+    const newCourse: Course = { id: courses.length + 1, ...req.body };
+    courses.push(newCourse);
+    writeData(COURSE_FILE, courses);
+
+    logger.info('Created new course', { courseId: newCourse.id });
+    res.status(201).json(newCourse);
+  } catch (error) {
+    logger.error('Failed to create course', { error });
+    next(error);
+  }
+};
 
 /**
  * Modifies an existing course.
@@ -101,25 +102,25 @@ export const createCourse = (req: Request, res: Response, next: NextFunction) =>
  * @param res Express response object
  * @returns a confirmation response that the course was modified is returned
  */
-  export const updateCourse = (req: Request, res: Response, next: NextFunction) => {
-    try {
-        const courses = readData(COURSE_FILE);
-        const index = courses.findIndex((c: any) => c.id === parseInt(req.params.id));
-    
-        if (index === -1) {
-          throw new MyError('Course not found', 404);
-        }
-    
-        courses[index] = { ...courses[index], ...req.body };
-        writeData(COURSE_FILE, courses);
-    
-        logger.info(`Updated course with ID ${req.params.id}`, { courseId: req.params.id });
-        res.status(200).json(courses[index]);
-      } catch (error) {
-        logger.error(`Failed to update course with ID ${req.params.id}`, { error });
-        next(error);
-      }
-  };
+export const updateCourse = (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const courses: Course[] = readData(COURSE_FILE);
+    const index = courses.findIndex((c) => c.id === parseInt(req.params.id));
+
+    if (index === -1) {
+      throw new MyError('Course not found', 404);
+    }
+
+    courses[index] = { ...courses[index], ...req.body };
+    writeData(COURSE_FILE, courses);
+
+    logger.info(`Updated course with ID ${req.params.id}`, { courseId: req.params.id });
+    res.status(200).json(courses[index]);
+  } catch (error) {
+    logger.error(`Failed to update course with ID ${req.params.id}`, { error });
+    next(error);
+  }
+};
 
 /**
  * Deletes a specific course.
@@ -127,23 +128,22 @@ export const createCourse = (req: Request, res: Response, next: NextFunction) =>
  * @param res Express response object
  * @returns a confirmation response that the course has been deleted is returned.
  */
-
 export const deleteCourse = (req: Request, res: Response, next: NextFunction) => {
-    try {
-        const courses = readData(COURSE_FILE);
-        const index = courses.findIndex((c: any) => c.id === parseInt(req.params.id));
-    
-        if (index === -1) {
-          throw new MyError('Course not found', 404);
-        }
-    
-        const deletedCourse = courses.splice(index, 1)[0];
-        writeData(COURSE_FILE, courses);
-    
-        logger.info(`Deleted course with ID ${req.params.id}`, { courseId: req.params.id });
-        res.status(200).json(`course with ID ${req.params.id} is deleted`);
-      } catch (error) {
-        logger.error(`Failed to delete course with ID ${req.params.id}`, { error });
-        next(error);
-      }
+  try {
+    const courses: Course[] = readData(COURSE_FILE);
+    const index = courses.findIndex((c) => c.id === parseInt(req.params.id));
+
+    if (index === -1) {
+      throw new MyError('Course not found', 404);
+    }
+
+    courses.splice(index, 1);
+    writeData(COURSE_FILE, courses);
+
+    logger.info(`Deleted course with ID ${req.params.id}`, { courseId: req.params.id });
+    res.status(200).json(`Course with ID ${req.params.id} is deleted`);
+  } catch (error) {
+    logger.error(`Failed to delete course with ID ${req.params.id}`, { error });
+    next(error);
+  }
 };

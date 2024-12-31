@@ -1,5 +1,4 @@
 import express, { Request, Response } from 'express';
-import fs from 'fs';
 import courseRoutes from './routes/courseRoutes';
 import errorHandler from './middleware/errorHandler';
 import requestLogger from './middleware/loggerMiddleware';
