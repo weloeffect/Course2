@@ -1,0 +1,154 @@
+<!DOCTYPE html><html class="default" lang="en" data-base="."><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>coursemanagementsystem - v2.0.1</title><meta name="description" content="Documentation for coursemanagementsystem"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script defer src="assets/main.js"></script><script async src="assets/icons.js" id="tsd-icons-script"></script><script async src="assets/search.js" id="tsd-search-script"></script><script async src="assets/navigation.js" id="tsd-nav-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar"><div class="tsd-toolbar-contents container"><div class="table-cell" id="tsd-search"><div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="assets/icons.svg#icon-search"></use></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div><div class="field"><div id="tsd-toolbar-links"></div></div><ul class="results"><li class="state loading">Preparing search index...</li><li class="state failure">The search index is not available</li></ul><a href="index.html" class="title">coursemanagementsystem - v2.0.1</a></div><div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget tsd-toolbar-icon menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="assets/icons.svg#icon-menu"></use></svg></a></div></div></header><div class="container container-main"><div class="col-content"><div class="tsd-page-title"><h1>coursemanagementsystem - v2.0.1</h1></div><div class="tsd-panel tsd-typography"><a id="course-management-system" class="tsd-anchor"></a><h1 class="tsd-anchor-link">Course Management System<a href="#course-management-system" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h1><p>A <strong>Course Management System</strong> that enables CRUD (Create, Read, Update, Delete) operations on course data. The system supports pagination, caching, and includes TypeDoc documentation for reference.</p>
+<p>Project Link: <a href="https://github.com/weloeffect/Course2">https://github.com/weloeffect/Course2</a></p>
+<a id="lecture-5-todos" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Lecture 5 TODOs<a href="#lecture-5-todos" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><ol>
+<li></li>
+</ol>
+<ul>
+<li>config file: <a href="https://github.com/weloeffect/Course2/blob/main/eslint.config.mjs">https://github.com/weloeffect/Course2/blob/main/eslint.config.mjs</a></li>
+<li>Install Eslint:</li>
+</ul>
+<pre><code class="bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">install</span><span class="hl-1"> </span><span class="hl-2">eslint</span><span class="hl-1"> </span><span class="hl-3">--save-dev</span><br/><span class="hl-0">npx</span><span class="hl-1"> </span><span class="hl-2">eslint</span><span class="hl-1"> </span><span class="hl-3">--init</span><span class="hl-1"> </span>
+</code><button type="button">Copy</button></pre>
+
+<p>During initialization:</p>
+<ul>
+<li>Select &quot;To check syntax and find problems&quot;</li>
+<li>Select &quot;JavaScript modules (import/export)&quot;</li>
+<li>Select &quot;None&quot; for framework</li>
+<li>Select &quot;yes&quot; for Typescript</li>
+<li>Select &quot;Node&quot; for browser selection</li>
+<li>Confirm installation of the required dependencies.</li>
+</ul>
+<p>Run:</p>
+<pre><code class="bash"><span class="hl-0">npx</span><span class="hl-1"> </span><span class="hl-2">npx</span><span class="hl-1"> </span><span class="hl-2">eslint</span>
+</code><button type="button">Copy</button></pre>
+
+<p>to analyze the whole project.</p>
+<pre><code class="bash"><span class="hl-0">npx</span><span class="hl-1"> </span><span class="hl-2">eslint</span><span class="hl-1"> </span><span class="hl-2">.</span><span class="hl-1"> </span><span class="hl-3">--fix</span>
+</code><button type="button">Copy</button></pre>
+
+<p>to fix errors automatically.</p>
+<ol start="2">
+<li></li>
+</ol>
+<ul>
+<li>config file: <a href="https://github.com/weloeffect/Course2/blob/main/package.json">https://github.com/weloeffect/Course2/blob/main/package.json</a></li>
+</ul>
+<p>Install Husky and Lint-Staged:</p>
+<pre><code class="bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">install</span><span class="hl-1"> </span><span class="hl-2">husky</span><span class="hl-1"> </span><span class="hl-2">lint-staged</span><span class="hl-1"> </span><span class="hl-3">--save-dev</span>
+</code><button type="button">Copy</button></pre>
+
+<p>Enable Husky:</p>
+<pre><code class="bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">run</span><span class="hl-1"> </span><span class="hl-2">prepare</span>
+</code><button type="button">Copy</button></pre>
+
+<p>This will create a .husky directory in the project with the pre-commit hook already installed.</p>
+<p>Runing the pre-commit hook:
+Stage files:</p>
+<pre><code class="bash"><span class="hl-0">git</span><span class="hl-1"> </span><span class="hl-2">add</span><span class="hl-1"> </span><span class="hl-2">.</span>
+</code><button type="button">Copy</button></pre>
+
+<p>Commit:</p>
+<pre><code class="bash"><span class="hl-0">git</span><span class="hl-1"> </span><span class="hl-2">commit</span><span class="hl-1"> </span><span class="hl-3">-m</span><span class="hl-1"> </span><span class="hl-2">&quot;Test commit&quot;</span>
+</code><button type="button">Copy</button></pre>
+
+<p>The pre-commit hook will run eslint --fix on all staged .ts files .</p>
+<p><strong>NOTE</strong>: to by pass commits:</p>
+<pre><code class="bash"><span class="hl-0">git</span><span class="hl-1"> </span><span class="hl-2">commit</span><span class="hl-1"> </span><span class="hl-3">--no-verify</span><span class="hl-1"> </span><span class="hl-3">-m</span><span class="hl-1"> </span><span class="hl-2">&quot;Test commit&quot;</span>
+</code><button type="button">Copy</button></pre>
+
+<ol start="3">
+<li></li>
+</ol>
+<ul>
+<li>logged files: <a href="https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts">https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/middleware/errorHandler.ts">https://github.com/weloeffect/Course2/blob/main/src/middleware/errorHandler.ts</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/middleware/loggerMiddleware.ts">https://github.com/weloeffect/Course2/blob/main/src/middleware/loggerMiddleware.ts</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/utils/logger.ts">https://github.com/weloeffect/Course2/blob/main/src/utils/logger.ts</a></li>
+</ul>
+<p>Install Winston</p>
+<pre><code class="bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">install</span><span class="hl-1"> </span><span class="hl-2">winston</span>
+</code><button type="button">Copy</button></pre>
+
+<p>Check the logged files for logging implementation.</p>
+<ol start="4">
+<li></li>
+</ol>
+<ul>
+<li>Test files: <a href="https://github.com/weloeffect/Course2/tree/main/src/utils/__tests__">https://github.com/weloeffect/Course2/tree/main/src/utils/__tests__</a> (it is in this directory that all test files are present)</li>
+<li>config files: <a href="https://github.com/weloeffect/Course2/blob/main/src/jest.config.js">https://github.com/weloeffect/Course2/blob/main/src/jest.config.js</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/jest.setup.js">https://github.com/weloeffect/Course2/blob/main/src/jest.setup.js</a></li>
+<li>Install Jest:</li>
+</ul>
+<pre><code class="bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">install</span><span class="hl-1"> </span><span class="hl-2">jest</span><span class="hl-1"> </span><span class="hl-2">ts-jest</span><span class="hl-1"> </span><span class="hl-2">@types/jest</span><span class="hl-1"> </span><span class="hl-3">--save-dev</span>
+</code><button type="button">Copy</button></pre>
+
+<p>Create a Jest configuration file:</p>
+<pre><code class="bash"><span class="hl-0">npx</span><span class="hl-1"> </span><span class="hl-2">ts-jest</span><span class="hl-1"> </span><span class="hl-2">config:init</span>
+</code><button type="button">Copy</button></pre>
+
+<p>Check the test files for Jest Implementation</p>
+<a id="lecture-6-todos" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Lecture 6 TODOs<a href="#lecture-6-todos" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><ol>
+<li></li>
+</ol>
+<ul>
+<li>License file: <a href="https://github.com/weloeffect/Course2/blob/main/LICENSE.txt">https://github.com/weloeffect/Course2/blob/main/LICENSE.txt</a></li>
+</ul>
+<ol start="2">
+<li></li>
+</ol>
+<ul>
+<li>README: <a href="https://github.com/weloeffect/Course2/blob/main/README.md">https://github.com/weloeffect/Course2/blob/main/README.md</a></li>
+</ul>
+<ol start="3">
+<li></li>
+</ol>
+<ul>
+<li>
+<p>documented files: <a href="https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts">https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.ts</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.js">https://github.com/weloeffect/Course2/blob/main/src/controllers/courseController.js</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/middleware/errorHandler.js">https://github.com/weloeffect/Course2/blob/main/src/middleware/errorHandler.js</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/middleware/errorHandler.ts">https://github.com/weloeffect/Course2/blob/main/src/middleware/errorHandler.ts</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/middleware/loggerMiddleware.js">https://github.com/weloeffect/Course2/blob/main/src/middleware/loggerMiddleware.js</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/middleware/loggerMiddleware.ts">https://github.com/weloeffect/Course2/blob/main/src/middleware/loggerMiddleware.ts</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/middleware/rateLimiter.js">https://github.com/weloeffect/Course2/blob/main/src/middleware/rateLimiter.js</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/middleware/rateLimiter.ts">https://github.com/weloeffect/Course2/blob/main/src/middleware/rateLimiter.ts</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/middleware/validateData.js">https://github.com/weloeffect/Course2/blob/main/src/middleware/validateData.js</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/middleware/validateData.ts">https://github.com/weloeffect/Course2/blob/main/src/middleware/validateData.ts</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/routes/courseRoutes.js">https://github.com/weloeffect/Course2/blob/main/src/routes/courseRoutes.js</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/routes/courseRoutes.ts">https://github.com/weloeffect/Course2/blob/main/src/routes/courseRoutes.ts</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/utils/MyError.js">https://github.com/weloeffect/Course2/blob/main/src/utils/MyError.js</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/utils/MyError.ts">https://github.com/weloeffect/Course2/blob/main/src/utils/MyError.ts</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/utils/fileHandler.js">https://github.com/weloeffect/Course2/blob/main/src/utils/fileHandler.js</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/utils/fileHandler.ts">https://github.com/weloeffect/Course2/blob/main/src/utils/fileHandler.ts</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/utils/logger.js">https://github.com/weloeffect/Course2/blob/main/src/utils/logger.js</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/src/utils/logger.ts">https://github.com/weloeffect/Course2/blob/main/src/utils/logger.ts</a></p>
+</li>
+<li>
+<p>config files: <a href="https://github.com/weloeffect/Course2/blob/main/tsconfig.json">https://github.com/weloeffect/Course2/blob/main/tsconfig.json</a>
+<a href="https://github.com/weloeffect/Course2/blob/main/typedoc.json">https://github.com/weloeffect/Course2/blob/main/typedoc.json</a></p>
+</li>
+</ul>
+<p>Install typedoc:</p>
+<pre><code class="bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">install</span><span class="hl-1"> </span><span class="hl-2">typedoc</span><span class="hl-1"> </span><span class="hl-3">--save-dev</span>
+</code><button type="button">Copy</button></pre>
+
+<p>Documentation Generation</p>
+<pre><code class="bash"><span class="hl-0">npx</span><span class="hl-1"> </span><span class="hl-2">typedoc</span><span class="hl-1"> </span><span class="hl-3">--entryPointStrategy</span><span class="hl-1"> </span><span class="hl-2">expand</span><span class="hl-1"> </span><span class="hl-3">--out</span><span class="hl-1"> </span><span class="hl-2">docs</span><span class="hl-1"> </span><span class="hl-2">src</span>
+</code><button type="button">Copy</button></pre>
+
+<p>will generate the documentation in the docs folder.</p>
+<ol start="4">
+<li></li>
+</ol>
+<ul>
+<li>tutorial: <a href="https://github.com/weloeffect/Course2/blob/main/docs/tutorials/tutorial.md">https://github.com/weloeffect/Course2/blob/main/docs/tutorials/tutorial.md</a></li>
+</ul>
+<ol start="5">
+<li></li>
+</ol>
+<ul>
+<li>release: <a href="https://github.com/weloeffect/Course2/releases/tag/v0.2.0-alpha">https://github.com/weloeffect/Course2/releases/tag/v0.2.0-alpha</a></li>
+</ul>
+<a id="license" class="tsd-anchor"></a><h2 class="tsd-anchor-link">License<a href="#license" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>This project is licensed under the MIT License. See the LICENSE.txt file for details.</p>
+</div></div><div class="col-sidebar"><div class="page-menu"><div class="tsd-navigation settings"><details class="tsd-accordion"><summary class="tsd-accordion-summary"><h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="assets/icons.svg#icon-chevronDown"></use></svg>Settings</h3></summary><div class="tsd-accordion-details"><div class="tsd-filter-visibility"><span class="settings-label">Member Visibility</span><ul id="tsd-filter-options"><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li></ul></div><div class="tsd-theme-toggle"><label class="settings-label" for="tsd-theme">Theme</label><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div><details open class="tsd-accordion tsd-page-navigation"><summary class="tsd-accordion-summary"><h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="assets/icons.svg#icon-chevronDown"></use></svg>On This Page</h3></summary><div class="tsd-accordion-details"><a href="#course-management-system"><span>Course <wbr/>Management <wbr/>System</span></a><ul><li><a href="#lecture-5-todos"><span>Lecture 5 TODOs</span></a></li><li><a href="#lecture-6-todos"><span>Lecture 6 TODOs</span></a></li><li><a href="#license"><span>License</span></a></li></ul></div></details></div><div class="site-menu"><nav class="tsd-navigation"><a href="modules.html">coursemanagementsystem - v2.0.1</a><ul class="tsd-small-nested-navigation" id="tsd-nav-container"><li>Loading...</li></ul></nav></div></div></div><footer><p class="tsd-generator">Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></footer><div class="overlay"></div></body></html>
