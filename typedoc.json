@@ -5,5 +5,6 @@
     "exclude": ["src/**/*.test.ts"], // Exclude test files or any files you don't want documented
     "excludeExternals": true, // Exclude external libraries
     "excludePrivate": true, // Exclude private members
-    "excludeProtected": true // Exclude protected members
-  }
+    "excludeProtected": true, // Exclude protected members
+    "entryPointStrategy": "expand" // Ensure TypeDoc expands the entry points
+}
