@@ -469,3 +469,7 @@
 [2024-12-31 11:39:25] [32minfo[39m: Created new course
 [2024-12-31 11:39:25] [32minfo[39m: Updated course with ID 1
 [2024-12-31 11:39:25] [32minfo[39m: Deleted course with ID 1
+[2024-12-31 11:57:22] [31merror[39m: Failed to fetch paginated courses with caching
+[2024-12-31 11:57:22] [32minfo[39m: Created new course
+[2024-12-31 11:57:22] [32minfo[39m: Updated course with ID 1
+[2024-12-31 11:57:22] [32minfo[39m: Deleted course with ID 1
