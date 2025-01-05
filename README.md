@@ -161,4 +161,11 @@ docker-compose down
 ```bash
 docker system prune
 ```
-
+## Lecture 8 TODOs
+1. CI file: https://github.com/weloeffect/Course2/blob/main/.github/workflows/ci.yml
+   Actions: https://github.com/weloeffect/Course2/actions/runs/12619853188
+2. Docs file: https://github.com/weloeffect/Course2/blob/main/.github/workflows/docs.yml
+   Actions: https://github.com/weloeffect/Course2/actions/runs/12619856707
+3. Tags file: https://github.com/weloeffect/Course2/blob/main/.github/workflows/release.yml
+   Actions: https://github.com/weloeffect/Course2/actions/runs/12559123406
+            https://github.com/weloeffect/Course2/releases/tag/v1.0.0
