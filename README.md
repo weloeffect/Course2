@@ -141,3 +141,24 @@ will generate the documentation in the docs folder.
 ## License
 
 This project is licensed under the MIT License. See the LICENSE.txt file for details.
+
+## Lecture 7 TODOs
+1. Start docker desktop
+2. Build and run containers:
+ ```bash
+docker-compose up --build
+   ```
+3. Check to see that the project is running at: http://localhost:3000/
+4. check for running containers:
+```bash
+docker ps
+```
+5. Stop running containers:
+```bash
+docker-compose down
+```
+6. Remove unused images and containers, if necessary:
+```bash
+docker system prune
+```
+
